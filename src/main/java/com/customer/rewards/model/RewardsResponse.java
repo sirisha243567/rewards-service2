@@ -16,8 +16,8 @@ public class RewardsResponse {
 	private long lastSecondMonthRewardPoints;
 	@JsonProperty("lastThirdMonthRewardPoints")
 	private long lastThirdMonthRewardPoints;
-	@JsonProperty("totalRewards")
-	private long totalRewards;
+	@JsonProperty("totalRewardPoints")
+	private long totalRewardPoints;
 
 	public long getCustomerId() {
 		return customerId;
@@ -51,12 +51,12 @@ public class RewardsResponse {
 		this.lastThirdMonthRewardPoints = lastThirdMonthRewardPoints;
 	}
 
-	public long getTotalRewards() {
-		return totalRewards;
+	public long getTotalRewardPoints() {
+		return totalRewardPoints;
 	}
 
-	public void setTotalRewards(long totalRewards) {
-		this.totalRewards = totalRewards;
+	public void setTotalRewardPoints(long totalRewardPoints) {
+		this.totalRewardPoints = totalRewardPoints;
 	}
 
 }
